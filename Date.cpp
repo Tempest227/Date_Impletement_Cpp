@@ -75,7 +75,7 @@ public:
 	{
 		if (day < 0)
 		{
-			*this -= day;
+			*this -= -day;
 		}
 		else
 		{
